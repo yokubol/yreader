@@ -1,0 +1,8 @@
+#!/usr/bin/env python3.6
+from sys import argv
+
+script, filename = argv
+
+txt = open(filename)
+print(f"Here are texts from {filename}:\n")
+print(txt.read())
